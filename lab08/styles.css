@@ -11,3 +11,9 @@ nav a {color: #000000;}
 nav a:hover {background-color: #23ac31;}
 nav {padding: 10px;
     margin-bottom: 30px;} 
+.quote {
+        float: right;
+        margin: 0px;
+        }
+.div {display: flex;}
+.div div {flex: 1;}
