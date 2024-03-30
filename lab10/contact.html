@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact</title>
+        <style>
+            .part1 {display: flex;
+                    background-color: #ffffff;
+                    padding: 25px;
+                    border-radius: 1em;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    }
+            .part1 div {flex: 1;}
+            .part2 {display: flex;
+                    background-color: #ffffff;
+                    padding: 20px;
+                    margin-top: 20px; /* margin: 10px,10px,0px,10px would not work- had to do them all separately */
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border-radius: 1em;
+                    }
+            .part2 div {flex: 1;}
+            .part2 {flex-wrap: wrap;}
+
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <span class="pipe">|</span>
+            <a href="skills.html">Skills</a>
+            <span class="pipe">|</span>
+            <a href="contact.html">Contact</a>
+         </nav>
+        <h1>Contact</h1>
+        <div class="part1">
+            <div>
+                 <h2>Address</h2>
+                 <p>Syracuse University<br>
+                    900 S Crouse Ave<br>
+                    Syracuse, NY 13244</p>
+            </div>
+            <div>
+                 <a href="mailto:msedlak@syr.edu">msedlak@syr.edu</a><br>
+                 <a href="https://www.linkedin.com/in/madeline-sedlak-b12b74181?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                 <img src="../images/logo-sized.png" alt="linkedin logo">My LinkedIn Profile</a>
+            </div>
+        </div>
+        <div class="part2">
+            <div>
+                <h2>Messages/Inquiries</h2>
+                <form action="https://formspree.io/f/xpzvpnjk" method="post">
+                    <label for="emailaddress">Email:</label><br>
+                    <input type="text" id="emailaddress" name="emailaddress"><br>
+                    <label for="phonenumber">Phone Number:</label><br>
+                    <input type="text" id="phonenumber" name="phonenumber"><br>
+                    <label>Message/Inquiry:</label><br>
+                    <textarea id="Message/Inquiry" name="Message/Inquiry" rows="3" cols="60"></textarea><br>
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" id="email" name="reply" value="user chose email">
+                    <label for="email">Email</label>
+                    <input type="radio" id="text" name="reply" value="user chose text">
+                    <label for="text">Text</label>
+                    <input type="radio" id="both" name="reply" value="user chose both">
+                    <label for="both">Both</label><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23327.006333985137!2d-76.136448!3d43.0440448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1706801552595!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+    </body>
