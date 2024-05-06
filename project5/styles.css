@@ -1,0 +1,106 @@
+.title {background-color: #5f9ea0;
+        border: none;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px; 
+        }
+body {background-color: #bee4e9;}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #000000;}
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.5em;}
+h1 {color: #000000;}
+a {color: #000000;}
+a:hover {color: #ffffff;}
+nav {background-color: #ffffff;}
+nav a {color: #000000;}
+nav a:hover {background-color: #b42680;}
+nav {padding: 10px;
+    margin-bottom: 30px;} 
+.quote {
+        float: right;
+        margin: 0px;
+        }
+.div {display: flex;}
+.div div {flex: 1;}
+
+.cameraicon, .codeicon, .laptopicon, .paletteicon, .shirticon {width: 3%;}
+.aside {padding: 40px;}
+.skillicons {display: flex;
+flex: 3;
+justify-content: space-around;
+}
+.otherskills {background-color: #ffffff;
+        border-radius: 1em;
+flex: 1;
+padding: 20px;
+margin-right: 40px;}
+.flexbox2 {display: flex;
+padding: 40px;}
+@media only screen and (max-width: 800px) {
+        .banner {display: none}
+        nav a {display: block;
+        width: 2.5em;
+        margin-bottom: 10px;
+        }
+        .pipe {display: none;}
+}
+.skip {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 8px;
+        border: 2px solid #ffa500;
+        position: absolute;
+        top: 10px;
+        left: -999px; /* push off left side of browser */
+    }
+    .skip:focus {
+        left: 10px;
+    }
+.skipphoto {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 8px;
+        border: 2px solid #ffa500;
+        position: absolute;
+        top: 10px;
+        left: -999px; /* push off left side of browser */
+    }
+.skipphoto:focus {
+        left: 10px;
+    }
+.skipfashion {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 8px;
+        border: 2px solid #ffa500;
+        position: absolute;
+        top: 10px;
+        left: -999px; /* push off left side of browser */
+    }
+.skipfashion:focus {
+        left: 10px;
+    }
+.skipart {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 8px;
+        border: 2px solid #ffa500;
+        position: absolute;
+        top: 10px;
+        left: -999px; /* push off left side of browser */
+    }
+.skipart:focus {
+        left: 10px;
+    }
+p, h1, h2 {padding-left: 30px;}
+.socials {display: flex;
+        justify-content: center;
+        margin-top: auto;
+        }
+.facebook, .twitter, .youtube, .instagram {padding: 10px;}
